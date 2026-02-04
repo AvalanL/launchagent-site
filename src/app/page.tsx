@@ -149,7 +149,7 @@ export default function Home() {
               { icon: '📣', title: 'Distribution', desc: 'Post everywhere with tracking' },
               { icon: '🍎', title: 'Fastlane Integration', desc: 'Push to App Store Connect' },
               { icon: '💬', title: 'Review Agent', desc: 'Monitor & respond to reviews' },
-              { icon: '📊', title: 'Analytics', desc: 'Track what's working' },
+              { icon: '📊', title: 'Analytics', desc: 'Track what works' },
             ].map((feature, i) => (
               <div key={i} className="p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-blue-500/50 transition">
                 <div className="text-3xl mb-3">{feature.icon}</div>
