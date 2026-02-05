@@ -35,19 +35,19 @@ export default function Home() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
           <div className="inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-sm">
-            ✨ AI-Powered App Launch System
+            🍎 AI-Powered iOS App Launch System
           </div>
           
           <h1 className="text-5xl sm:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
             Your AI Marketing Team
             <br />
-            <span className="text-blue-400">for App Launches</span>
+            <span className="text-blue-400">for iOS App Store Launches</span>
           </h1>
           
           <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-10">
-            Open in Cursor. Talk to the agent. Launch your app to thousands of users.
+            Open in Cursor. Talk to the agent. Launch your iOS app to thousands of users.
             <br />
-            No marketing experience required.
+            ASO, App Store Connect, marketing content — all automated.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -73,7 +73,7 @@ export default function Home() {
       <section className="py-20 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Building apps is solved. <span className="text-red-400">Launching them isn't.</span>
+            Building iOS apps is solved. <span className="text-red-400">App Store launches aren't.</span>
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -81,7 +81,7 @@ export default function Home() {
               <div className="text-4xl mb-4">😫</div>
               <h3 className="text-xl font-semibold mb-2">The Day 2 Problem</h3>
               <p className="text-gray-400">
-                You built an amazing app. Now what? Marketing is a whole other skillset.
+                You built an amazing iOS app. Now what? App Store marketing is a whole other skillset.
               </p>
             </div>
             
@@ -108,10 +108,10 @@ export default function Home() {
       <section className="py-20 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-4">
-            What if launch was also solved?
+            What if App Store launch was also solved?
           </h2>
           <p className="text-xl text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            LaunchAgent is a complete AI marketing team in a repo. Open it, talk to it, let it work.
+            LaunchAgent is a complete AI marketing team for iOS apps. Open it, talk to it, launch on the App Store.
           </p>
           
           <div className="bg-gray-800/30 rounded-2xl border border-gray-700 p-8 max-w-4xl mx-auto">
@@ -122,8 +122,8 @@ export default function Home() {
               <div className="text-gray-500 mb-2"># Start chatting</div>
               <div className="text-blue-400 mb-1">You: Hi, I want to launch my app</div>
               <div className="text-purple-400 mb-1">Agent: Great! Tell me about your app...</div>
-              <div className="text-blue-400 mb-1">You: It's called PinNote, an AI note-taking app</div>
-              <div className="text-purple-400 mb-4">Agent: Got it! I'll analyze your competitors, optimize your App Store listing, create launch content, and help you post everywhere. Say "start research" when ready.</div>
+              <div className="text-blue-400 mb-1">You: It's called PinNote, an AI note-taking iOS app</div>
+              <div className="text-purple-400 mb-4">Agent: Got it! I'll analyze your App Store competitors, optimize your iOS listing, create launch content, and push to App Store Connect. Say "start research" when ready.</div>
               
               <div className="text-gray-500 mb-2"># The agent does the work</div>
               <div className="text-blue-400 mb-1">You: start research</div>
@@ -137,19 +137,19 @@ export default function Home() {
       <section className="py-20 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Your Complete Launch Team
+            Your Complete iOS Launch Team
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: '🔍', title: 'Research Agent', desc: 'Competitor analysis & market opportunities' },
-              { icon: '📱', title: 'ASO Agent', desc: 'Keywords, titles, descriptions that rank' },
-              { icon: '🎨', title: 'Icon Generator', desc: 'All iOS icon sizes from one image' },
+              { icon: '🔍', title: 'Research Agent', desc: 'App Store competitor analysis & market gaps' },
+              { icon: '📱', title: 'ASO Agent', desc: 'iOS keywords, titles, descriptions that rank' },
+              { icon: '🎨', title: 'Icon Generator', desc: 'All iOS icon sizes (1024px → all sizes)' },
               { icon: '✍️', title: 'Content Agent', desc: 'Twitter, Reddit, PH, HN posts ready to go' },
-              { icon: '📣', title: 'Distribution', desc: 'Post everywhere with tracking' },
-              { icon: '🍎', title: 'Fastlane Integration', desc: 'Push to App Store Connect' },
-              { icon: '💬', title: 'Review Agent', desc: 'Monitor & respond to reviews' },
-              { icon: '📊', title: 'Analytics', desc: 'Track what works' },
+              { icon: '📣', title: 'Distribution', desc: 'Launch day content across all channels' },
+              { icon: '🍎', title: 'Fastlane Integration', desc: 'Push metadata to App Store Connect' },
+              { icon: '💬', title: 'Review Agent', desc: 'Monitor & respond to App Store reviews' },
+              { icon: '📊', title: 'Analytics', desc: 'Track downloads & rankings' },
             ].map((feature, i) => (
               <div key={i} className="p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-blue-500/50 transition">
                 <div className="text-3xl mb-3">{feature.icon}</div>
@@ -171,9 +171,9 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             {[
               { step: '1', title: 'Clone & Open', desc: 'Open in Cursor or any AGENTS.md-compatible IDE' },
-              { step: '2', title: 'Chat Setup', desc: 'Answer 5 questions about your app' },
-              { step: '3', title: 'Agent Executes', desc: 'Research, ASO, content — all generated' },
-              { step: '4', title: 'Review & Launch', desc: 'Approve, push to App Store, go live' },
+              { step: '2', title: 'Chat Setup', desc: 'Answer 5 questions about your iOS app' },
+              { step: '3', title: 'Agent Executes', desc: 'App Store research, ASO, content — all generated' },
+              { step: '4', title: 'Push & Launch', desc: 'Fastlane syncs to App Store Connect, go live' },
             ].map((item, i) => (
               <div key={i} className="text-center">
                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
